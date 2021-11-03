@@ -4,8 +4,7 @@ CREATE TRIGGER update_hour_now
 BEFORE INSERT ON orders
 FOR EACH ROW
 BEGIN 
- SET NEW.OrderDate = CURRENT_DATE();
- END $$
+SET NEW.OrderDate = CURRENT_DATE();
+END $$
  
 DELIMITER ;
-
