@@ -9,4 +9,3 @@ BEGIN
  
 DELIMITER ;
 
--- Error Code: 1362. Updating of NEW row is not allowed in after trigger
